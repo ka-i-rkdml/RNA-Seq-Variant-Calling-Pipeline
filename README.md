@@ -11,27 +11,27 @@ This workflow follows GATK best practices adapted for RNA-seq data, including pr
 This pipeline processes RNA-seq aligned BAM files to identify high-confidence genetic variants and annotate their functional impact.
 
 ### Workflow Summary
-BAM
-↓
-Sorting
-↓
-Read Group Assignment
-↓
-MarkDuplicates
-↓
-SplitNCigarReads (RNA-seq specific)
-↓
-Base Quality Score Recalibration (BQSR)
-↓
-HaplotypeCaller (GATK)
-↓
-Genotyping (GenotypeGVCFs)
-↓
-Variant Filtering (SNP/Indel separation + hard filtering)
-↓
-Functional Annotation (snpEff)
-↓
-Final annotated VCF
+BAM  
+↓  
+Sorting  
+↓  
+Read Group Assignment  
+↓  
+MarkDuplicates  
+↓  
+SplitNCigarReads (RNA-seq specific)  
+↓  
+Base Quality Score Recalibration (BQSR)  
+↓  
+HaplotypeCaller (GATK)  
+↓  
+Genotyping (GenotypeGVCFs)  
+↓  
+Variant Filtering (SNP/Indel separation + hard filtering)  
+↓  
+Functional Annotation (snpEff)  
+↓  
+Final annotated VCF  
 
 
 ---
