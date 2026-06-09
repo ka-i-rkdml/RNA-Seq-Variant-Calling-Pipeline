@@ -1,0 +1,37 @@
+# Alignment files
+*.bam
+*.bai
+*.sam
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.csi
+*.g.vcf.gz
+*.g.vcf.gz.tbi
+
+# FASTQ
+*.fastq
+*.fastq.gz
+
+# Reference files
+*.fa
+*.fa.gz
+*.fasta
+*.fai
+*.dict
+
+# GATK
+*.table
+*_metrics.txt
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Linux
+.DS_Store
