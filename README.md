@@ -166,6 +166,6 @@ This pipeline was used to identify somatic or treatment-associated variants in R
 
 If you use this pipeline, please cite this repository:
 ```bash
-Author. (Year). RNA-seq Variant Calling and Functional Annotation Pipeline.
+Chia-I Lee. (2026). RNA-seq Variant Calling and Functional Annotation Pipeline.
 GitHub repository: https://github.com/ka-i-rkdml/RNA-Seq-Variant-Calling-Pipeline
 ```
