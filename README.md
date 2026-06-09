@@ -10,6 +10,8 @@ This workflow follows GATK best practices adapted for RNA-seq data, including pr
 
 This pipeline processes RNA-seq aligned BAM files to identify high-confidence genetic variants and annotate their functional impact.
 
+![RNA-seq variant calling workflow](figures/rna_seq_pipeline_flow.png)
+
 ### Workflow Summary
 BAM  
 ↓  
@@ -75,6 +77,7 @@ source ~/.bashrc
 ---
 
 ## 📁 Repository Structure
+```text
 rna-seq-variant-calling-pipeline/
 │
 ├── pipeline/              # Main workflow scripts
@@ -90,7 +93,7 @@ rna-seq-variant-calling-pipeline/
 ├── figures/               # Pipeline diagrams / figures
 │
 └── README.md
-
+```
 ---
 
 ## 🚀 Usage
@@ -166,8 +169,7 @@ This pipeline was used to identify somatic or treatment-associated variants in R
 
 If you use this pipeline, please cite this repository:
 ```bash
-Chia-I Lee. (2026). RNA-seq Variant Calling and Functional Annotation Pipeline.
-GitHub repository: https://github.com/ka-i-rkdml/RNA-Seq-Variant-Calling-Pipeline
+Lee, C.-I. (2026). RNA-seq Variant Calling and Functional Annotation Pipeline. GitHub. https://github.com/ka-i-rkdml/RNA-Seq-Variant-Calling-Pipeline
 ```
 
 ---
