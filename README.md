@@ -169,3 +169,10 @@ If you use this pipeline, please cite this repository:
 Chia-I Lee. (2026). RNA-seq Variant Calling and Functional Annotation Pipeline.
 GitHub repository: https://github.com/ka-i-rkdml/RNA-Seq-Variant-Calling-Pipeline
 ```
+
+---
+
+### ⚠️ Notes
+- Designed for WSL2 / Linux environment
+- Requires sufficient RAM (≥16GB recommended for GATK steps)
+- Ensure reference genome consistency across all steps (hg38 recommended)
