@@ -160,6 +160,17 @@ Final output includes:
 
 ---
 
+## Directory Structure
+
+Before running the pipeline:
+
+~/reference/
+├── hg38.fa
+├── hg38.dict
+├── hg38.fa.fai
+└── 00-All.chr.vcf.gz
+---
+
 ## 🧬 Biological Context
 
 This pipeline was used to identify somatic or treatment-associated variants in RNA-seq datasets and compare variant profiles between conditions (e.g., resistant vs parental clones).
