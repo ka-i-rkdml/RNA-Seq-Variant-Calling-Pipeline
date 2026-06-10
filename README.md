@@ -49,6 +49,23 @@ Final annotated VCF
 
 ---
 
+## Required Reference Resources
+
+Reference genome and annotation databases are not included in this repository due to file size limitations.
+
+Required files:
+
+- `hg38.fa`
+- `hg38.fa.fai`
+- `hg38.dict`
+- `00-All.chr.vcf.gz`
+- `00-All.chr.vcf.gz.tbi`
+- snpEff custom database: `GRCh38.113`
+
+Users should update paths in `config/paths.sh` before running the pipeline.
+
+---
+
 ## 📦 Installation
 
 ### 1. Install dependencies (Ubuntu / WSL)
@@ -158,18 +175,6 @@ Final output includes:
 - FS > 200.0
 - ReadPosRankSum < -20.0
 
----
-
-## Directory Structure
-
-Before running the pipeline:
-```text
-~/reference/
-├── hg38.fa
-├── hg38.dict
-├── hg38.fa.fai
-└── 00-All.chr.vcf.gz
-```
 ---
 
 ## 🧬 Biological Context
