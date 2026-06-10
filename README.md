@@ -12,30 +12,6 @@ This pipeline processes RNA-seq aligned BAM files to identify high-confidence ge
 
 ![RNA-seq variant calling workflow](figures/rna_seq_pipeline_flow.png)
 
-### Workflow Summary
-BAM  
-↓  
-Sorting  
-↓  
-Read Group Assignment  
-↓  
-MarkDuplicates  
-↓  
-SplitNCigarReads (RNA-seq specific)  
-↓  
-Base Quality Score Recalibration (BQSR)  
-↓  
-HaplotypeCaller (GATK)  
-↓  
-Genotyping (GenotypeGVCFs)  
-↓  
-Variant Filtering (SNP/Indel separation + hard filtering)  
-↓  
-Functional Annotation (snpEff)  
-↓  
-Final annotated VCF  
-
-
 ---
 
 ## 🛠️ Tools & Versions
@@ -62,7 +38,8 @@ Required files:
 - `00-All.chr.vcf.gz.tbi`
 - snpEff custom database: `GRCh38.113`
 
-Users should update paths in `config/paths.sh` before running the pipeline.
+Users should update paths in `config/paths.sh` before running the pipeline.  
+Reference resources can be generated following the instructions in the workflow documentation and are intentionally excluded from this repository because of file size limitations.
 
 ---
 
@@ -185,7 +162,7 @@ This pipeline was used to identify somatic or treatment-associated variants in R
 ## 📌 Citation
 
 If you use this pipeline, please cite this repository:
-```bash
+```text
 Lee, C.-I. (2026). RNA-seq Variant Calling and Functional Annotation Pipeline. GitHub. https://github.com/ka-i-rkdml/RNA-Seq-Variant-Calling-Pipeline
 ```
 
