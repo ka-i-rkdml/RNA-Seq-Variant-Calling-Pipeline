@@ -163,12 +163,13 @@ Final output includes:
 ## Directory Structure
 
 Before running the pipeline:
-
+```text
 ~/reference/
 ├── hg38.fa
 ├── hg38.dict
 ├── hg38.fa.fai
 └── 00-All.chr.vcf.gz
+```
 ---
 
 ## 🧬 Biological Context
